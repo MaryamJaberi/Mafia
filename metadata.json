@@ -1,0 +1,6 @@
+{
+  "name": "Mafia Host OS",
+  "description": "Professional Mafia Game Moderator Console & Real-Time Multiplayer Companion with QR Join, Accusation Matrix & Network Graph, and Cross-Platform Mobile Sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "users": {
+      "fields": {
+        "uid": { "type": "string" },
+        "displayName": { "type": "string" },
+        "email": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "createdAt": { "type": "number" },
+        "lastActiveAt": { "type": "number" },
+        "totalGamesPlayed": { "type": "number" },
+        "gamesWon": { "type": "number" }
+      }
+    },
+    "rooms": {
+      "fields": {
+        "roomId": { "type": "string" },
+        "hostUid": { "type": "string" },
+        "hostName": { "type": "string" },
+        "scenarioId": { "type": "string" },
+        "phase": { "type": "string" },
+        "dayNumber": { "type": "number" },
+        "createdAt": { "type": "number" },
+        "updatedAt": { "type": "number" }
+      }
+    },
+    "savedNotes": {
+      "fields": {
+        "userId": { "type": "string" },
+        "roomId": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "timestamp": { "type": "number" }
+      }
+    }
+  }
+}

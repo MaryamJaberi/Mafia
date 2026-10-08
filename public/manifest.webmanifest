@@ -1,0 +1,51 @@
+{
+  "name": "Mafia Host OS | سیستم هوشمند گرداننده مافیا",
+  "short_name": "Mafia OS",
+  "description": "سیستم جامع گرداننده مافیا، سینک زنده بازیکنان با کد QR، ماتریس و نمودار تعامل اتهامات و پوشش صوتی شب",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "dir": "rtl",
+  "lang": "fa-IR",
+  "categories": ["games", "utilities", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "مدیریت اتاق جدید (Host)",
+      "short_name": "گرداننده",
+      "description": "ایجاد و میزبانی اتاق بازی جدید مافیا",
+      "url": "/?mode=host",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "ورود سریع بازیکن (Join)",
+      "short_name": "ورود بازیکن",
+      "description": "اتصال به عنوان بازیکن با کد اتاق یا QR",
+      "url": "/?mode=player",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
